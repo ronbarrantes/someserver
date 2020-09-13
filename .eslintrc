@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+
+  "parser": "@typescript-eslint/parser",
+
+  "parserOptions": {
+    "tsconfigRootDir": "__dirname",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/rule-name": "error",
+
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "brace-style": ["error", "stroustrup"],
+    "no-multi-spaces": "warn",
+    "comma-spacing": ["warn", { "before": false, "after": true }],
+    "require-atomic-updates": "error",
+    "no-trailing-spaces": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      { "max": 1, "maxEOF": 1, "maxBOF": 1 }
+    ],
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": ["warn", "always"],
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "switch-colon-spacing": ["error", { "after": true, "before": false }],
+    "semi": ["error", "never"],
+    "space-in-parens": ["warn", "never"],
+    "new-cap": ["error", { "capIsNewExceptions": ["Record"] }],
+    "camelcase": ["warn"],
+    "no-whitespace-before-property": 2,
+    "arrow-spacing": "error"
+  }
+}

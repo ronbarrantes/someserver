@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6", "dom", "ESNext"],
+    "outDir": "dist",
+    "watch": true
+  }
+}
