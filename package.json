@@ -5,12 +5,7 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "start-server": "tsc",
-    "build": "webpack --config webpack.prod.js",
-    "build-dev": "webpack --config webpack.config.js",
-    "build-start": "npm run build & npm start",
-    "build-no-server": "webpack --config webpack.noserver.config.js",
-    "watch": "webpack-dev-server --inline --hot",
+    "watch": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
