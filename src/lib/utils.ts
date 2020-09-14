@@ -1,4 +1,3 @@
-
 interface RandomNumber {
   (num?: number): number;
 }
