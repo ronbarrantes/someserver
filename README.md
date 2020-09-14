@@ -1,3 +1,3 @@
 # Server
 
-I dont know what I'm making
+I don't know what I'm making
